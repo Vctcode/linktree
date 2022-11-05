@@ -1,4 +1,4 @@
-.links, #contact {
+.links {
   position: relative;
   margin: 0 9rem;
 }
@@ -22,7 +22,7 @@
   justify-self: center;
  }
 
-.link-text, #contact {
+.link-text {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -42,7 +42,7 @@
   filter: drop-shadow(0px 1px 2px rgba(16, 24, 40, 0.05));
 }
 
-.link-text:hover, #contact:hover {
+.link-text:hover {
   background: #d0d5dd;
   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
 }

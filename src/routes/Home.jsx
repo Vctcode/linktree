@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 import ProfileSection from "../components/ProfileSection";
 import Links from "../components/Links";
 import Socials from "../components/Socials";
+import ContactButton from "../components/ContactButton";
 
-// Style
-import "../components/Links/Links.css"
+
 
 export default function Home() {
     const slackUsername = "vct-code"
@@ -57,8 +57,7 @@ export default function Home() {
                     subtext="Get a free Design book to enhance your design skill. Offered by Zuri."
                 />
 
-                <Link to="contact" id="contact">Contact me</Link>
-
+                <ContactButton />
 
                 <Socials />
             </div>
