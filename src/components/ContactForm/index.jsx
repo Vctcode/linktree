@@ -30,7 +30,7 @@ export default function ContactForm() {
         event.preventDefault()
         // console.log(formData)
         alert("Your message is sent successfully")
-        
+
     }
     return (
         <div className="contact-form">
@@ -51,6 +51,7 @@ export default function ContactForm() {
                             placeholder="Enter your first name"
                             onChange={handleChange}
                             value={formData.firstName}
+                            required
                         />
                     </label>
 
@@ -63,6 +64,7 @@ export default function ContactForm() {
                             placeholder="Enter your last name"
                             onChange={handleChange}
                             value={formData.lastName}
+                            required
                         />
                     </label>
                 </div>
@@ -76,6 +78,7 @@ export default function ContactForm() {
                         onChange={handleChange}
                         name="email"
                         value={formData.email}
+                        required
                     />
                 </label>
 
@@ -86,8 +89,8 @@ export default function ContactForm() {
                         id="message"
                         placeholder="Send me a message and I'll reply you as soon as possible..."
                         onChange={handleChange}
-                        cols="30"
-                        rows="10" />
+                        required
+                    />
                 </label>
 
 

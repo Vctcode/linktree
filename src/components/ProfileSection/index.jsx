@@ -22,7 +22,7 @@ export default function ProfileSection(props) {
             </div>
 
             <div className="profile-img">
-                <img id='profile_img' src={Vic2} alt="" />
+                <img id='profile__img' src={Vic2} alt="" />
                 <div className='camera-box'>
                     <img className='camera' src={Camera} alt="" />
                     </div>
