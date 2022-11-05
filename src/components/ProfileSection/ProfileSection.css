@@ -1,0 +1,97 @@
+.profile-section {
+  position: relative;
+  margin: 64px 32px 56px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.share-icon {
+  position: absolute;
+  right: 208px;
+  top: -20px;
+}
+
+.icon-mobile {
+  display: none;
+}
+
+.profile-img {
+  position: relative;
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  margin-bottom: 24px;
+  box-sizing: border-box;
+}
+
+.profile-img .camera-box {
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background-color: rgba(52, 64, 84, 0.75);
+}
+
+.profile-img:hover .camera-box {
+  display: block;
+}
+
+.profile-img .camera-box .camera {
+  position: absolute;
+  bottom: 10px;
+  left: 42%;
+  width: 20px;
+  height: 20px;
+}
+
+.profile-img img {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+}
+
+.profile-name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #101828;
+}
+
+.slack-name {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .profile-section {
+    position: relative;
+    margin: 64px 16px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .share-icon {
+    position: absolute;
+    right: 0;
+    top: -20px;
+  }
+
+  .icon-desktop {
+    display: none;
+  }
+
+  .icon-mobile {
+    display: block;
+  }
+
+  .profile-name {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
